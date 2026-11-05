@@ -7,7 +7,7 @@ A single-page editorial site set at 3:17 AM at Kwame Nkrumah Circle, Accra: the 
 ## Project docs
 
 - `CLAUDE.md`: project brief and technical stack
-- `PRD.md`: requirements and success criteria (still the earlier Tokyo version)
+- `PRD.md`: requirements and success criteria
 - `DESIGN_STANDARD.md`: visual specification
 - `SITE_CONTRACT.md`: page structure and behaviour
 - `CONTENT_MODEL.md`: all page copy and field constraints

@@ -1,12 +1,12 @@
 # Product Requirements Document
-### 3 AM in Tokyo — Static Site
-*Version 2.0*
+### 3 AM in Accra — Static Site
+*Version 3.0 — Accra adaptation*
  
 ---
  
 ## 1. Vision
  
-Deliver a single-page editorial site that places the visitor on a wet Tokyo street at 3 AM — the last train gone, neon bleeding into rain-soaked pavement, the city indifferent and beautiful. This is not a portfolio or a product page; it is an atmospheric experience first, with content that deepens the world rather than describing it. Every section earns its place by advancing that feeling.
+Deliver a single-page editorial site that places the visitor on a wet Accra street at 3 AM — the last trotro gone, neon bleeding into rain-soaked pavement, the city indifferent and beautiful. This is not a portfolio or a product page; it is an atmospheric experience first, with content that deepens the world rather than describing it. Every section earns its place by advancing that feeling.
  
 ---
  
@@ -25,14 +25,14 @@ A creative director or potential collaborator evaluating taste and craft. They a
 ### Must-Have *(static site constraints apply)*
 - Single HTML file deployable to any static host (GitHub Pages, Netlify, Vercel) with zero build step.
 - Five-section page: Hero, The Street, Three Pillars, Manifesto, Contact — in that order.
-- Two-column hero with a large time stamp, a vertical kanji column, prose headline, sub-copy, dual CTAs, and a status bar (last train, next train, status, temperature).
+- Two-column hero with a large time stamp, a vertical Twi column, prose headline, sub-copy, dual CTAs, and a status bar (last trotro, next trotro, status, temperature).
 - Canvas rain animation fixed behind all content.
 - Custom cursor: a small cyan dot with a lagging ring that expands on interactive elements.
 - Noise grain overlay via inline SVG filter at low opacity.
-- Neon gradient bleed (pink from lower-left, cyan from upper-right) on the hero.
+- Neon gradient bleed (pink from upper-right, cyan from lower-left) on the hero.
 - Scroll-reveal: all sections below the hero fade and translate up on intersection.
 - Reflection strips between sections: single-pixel horizontal rules with a neon gradient.
-- Fully responsive layout; kanji column hidden below 900 px, grids collapse to single column.
+- Fully responsive layout; Twi column hidden below 900 px, grids collapse to single column.
 - Performance baseline: Lighthouse score ≥ 90 on mobile.
 - All assets self-contained or loaded from Google Fonts CDN; no auth required.
 ### Should-Have
@@ -42,7 +42,7 @@ A creative director or potential collaborator evaluating taste and craft. They a
 - Favicon matching the site palette.
 ### Nice-to-Have
 - Time-aware stamp: JS reads the visitor's local clock and replaces the hard-coded time.
-- Ambient audio toggle (looped rain + distant train sounds), off by default.
+- Ambient audio toggle (looped rain + distant highlife), off by default.
 - A CSS-only parallax depth effect on background gradient layers.
 ---
  
@@ -58,7 +58,7 @@ A creative director or potential collaborator evaluating taste and craft. They a
  
 ## 5. Design Standard Summary
  
-The visual language is urban nocturne: near-black backgrounds with pink, cyan, violet, and amber neon accents used as the only light sources — signs in the distance, not foreground decoration. Typography pairs Noto Serif JP (editorial weight, headlines and body) with Space Mono (monospaced precision, labels and UI copy). Motion is slow and deliberate — everything eases out, nothing snaps — and rain falls continuously behind every section. See `design-standard.md` for the complete specification.
+The visual language is urban nocturne: near-black backgrounds with pink, cyan, violet, and amber neon accents used as the only light sources — signs in the distance, not foreground decoration. Typography pairs Noto Serif (editorial weight, headlines and display text) with Space Mono (monospaced precision, labels, UI copy and body prose), with Noto Sans for the script sub-label. Motion is slow and deliberate — everything eases out, nothing snaps — and rain falls continuously behind every section. See `design-standard.md` for the complete specification.
  
 ---
  
